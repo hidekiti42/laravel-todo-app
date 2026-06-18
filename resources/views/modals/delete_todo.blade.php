@@ -1,4 +1,4 @@
-<div class="modal fade" id="deleteTodomodal{{ $todo->id }}" tabindex="-1" aria-labelledby="deleteTodoModalLabel{{ $todo->id }}">
+<div class="modal fade" id="deleteTodoModal{{ $todo->id }}" tabindex="-1" aria-labelledby="deleteTodoModalLabel{{ $todo->id }}">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">

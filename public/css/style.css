@@ -1,0 +1,15 @@
+.menu-icon::after {
+display: none;
+}
+/* タグのボタン1つひとつが縦に潰れるのを強制的に防ぐ */
+.d-flex.flex-wrap a,
+.d-flex.flex-wrap div {
+    white-space: nowrap !important;
+}
+
+/* もし教材でクラス名が指定されている場合は以下も有効です */
+.tag-btn {
+    display: inline-flex !important;
+    align-items: center;
+    white-space: nowrap !important;
+}
